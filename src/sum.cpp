@@ -3,7 +3,7 @@
 #include "sum.h"
 
 int sum( const std::vector<int>& nums ) {
-    int sum;
+    int sum = 0;
 
     for( auto i{0}; i < nums.size(); i++ ) {
         sum += nums.at(i);
